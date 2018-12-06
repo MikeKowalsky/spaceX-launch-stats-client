@@ -26,7 +26,7 @@ export class Launches extends Component {
             if (loading) return <h4>Loading ... </h4>;
             if (error) console.log(error);
 
-            console.log(data);
+            // console.log(data);
             return (
               <Fragment>
                 {data.launches.map(launch => (
